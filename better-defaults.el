@@ -70,6 +70,11 @@
   (global-set-key (kbd "C-M-s") 'isearch-forward)
   (global-set-key (kbd "C-M-r") 'isearch-backward)
 
+  (defalias 'yes-or-no-p 'y-or-n-p)
+  (line-number-mode t)
+  (column-number-mode t)
+  (prefer-coding-system 'utf-8)
+
   (show-paren-mode 1)
   (setq-default indent-tabs-mode nil)
   (setq x-select-enable-clipboard t
