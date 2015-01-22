@@ -59,8 +59,6 @@ functionality came from if it turns out to be undesired.
 
 * Mouse yanking inserts at the point instead of the location of the click.
 
-* Ediff will not open a new frame.
-
 * Backups are stored inside `user-emacs-directory`. (Usually `~/.emacs.d`)
 
 * `M-z` (formerly `zap-to-char`) is replaced with the far more useful
