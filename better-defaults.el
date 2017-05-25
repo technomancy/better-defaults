@@ -85,6 +85,8 @@
         save-place-file (concat user-emacs-directory "places")
         backup-directory-alist `(("." . ,(concat user-emacs-directory
                                                  "backups")))))
-
+(when (fboundp 'find-function-setup-keys)
+  (find-function-setup-keys))
+  
 (provide 'better-defaults)
 ;;; better-defaults.el ends here
