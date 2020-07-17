@@ -1,5 +1,10 @@
 # Better Defaults for Emacs
 
+This project is now
+[hosted on sourcehut](https://git.sr.ht/~technomancy/better-defaults). To
+contribute, please send patches to the author by email or by
+contacting him on Freenode.
+
 There are a number of unfortunate facts about the way Emacs works out
 of the box. While all users will eventually need to learn to write
 Emacs Lisp in order to customize it to their particular tastes, this
